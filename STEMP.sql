@@ -46,4 +46,8 @@ PrecioUnitario varchar(200)
 );
 GO
 SELECT * FROM TempComp;
+SELECT * FROM TempVent;
+
+GO
 SELECT count(*) from TempComp;
+SELECT count(*) from TempVent;
